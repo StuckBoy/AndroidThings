@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question_text1">What is the capital of Michigan?</string>
+    <string name="question_text2">How many floors does JXJ have?</string>
+    <string name="question_text3">What is the superior operating system?</string>
+    <string name="question_text4">What is your quest?</string>
+    <string name="question_text5">Who is Batman?</string>
+    <string name="score_toast">Here is your score: </string>
+    <string name="q1_response1">Detroit, obviously!</string>
+    <string name="q1_response2">Lansing</string>
+    <string name="q2_response1">3</string>
+    <string name="q2_response2">4</string>
+    <string name="q3_response1">Linux</string>
+    <string name="q3_response2">Whatever the IDE requires</string>
+    <string name="q4_response1">To find the Holy Grail</string>
+    <string name="q4_response2">I don\'t know that</string>
+    <string name="q5_response1">Clark Kent</string>
+    <string name="q5_response2">Bruce Wayne</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+</resources>

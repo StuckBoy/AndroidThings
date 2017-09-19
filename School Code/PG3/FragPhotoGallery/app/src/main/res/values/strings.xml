@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FragPhotoGallery</string>
+    <string name="Calico">Calico</string>
+    <string name="CatDog">CatDog</string>
+    <string name="Cheshire">Cheshire</string>
+    <string name="Corgi">Corgi</string>
+    <string name="Greyhound">Greyhound</string>
+    <string name="Husky">Husky</string>
+    <string name="Labrador">Labrador</string>
+    <string name="MaineCoone">Maine Coone</string>
+    <string name="Pomeranian">Pomeranian</string>
+    <string name="Siamese">Siamese</string>
+</resources>

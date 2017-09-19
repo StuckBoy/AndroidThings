@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select a \n cat/dog breed listed below."
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/butt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="70dp"
+                android:text="@string/Calico" />
+
+            <Button
+                android:id="@+id/butt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="70dp"
+                android:text="@string/CatDog" />
+
+            <Button
+                android:id="@+id/butt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="70dp"
+                android:text="@string/Cheshire" />
+
+            <Button
+                android:id="@+id/butt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="70dp"
+                android:text="@string/Corgi" />
+
+            <Button
+                android:id="@+id/butt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="70dp"
+                android:text="@string/Greyhound" />
+
+            <Button
+                android:id="@+id/butt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="70dp"
+                android:text="@string/Husky" />
+
+            <Button
+                android:id="@+id/butt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="70dp"
+                android:text="@string/Labrador" />
+
+            <Button
+                android:id="@+id/butt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="70dp"
+                android:text="@string/MaineCoone" />
+
+            <Button
+                android:id="@+id/butt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="70dp"
+                android:text="@string/Pomeranian" />
+
+            <Button
+                android:id="@+id/butt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="70dp"
+                android:text="@string/Siamese" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

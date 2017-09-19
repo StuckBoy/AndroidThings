@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Yelp Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="entry_text">Please enter a valid latitude and longitude, then press the button to see restaurants in a 5 mile radius.</string>
+</resources>
